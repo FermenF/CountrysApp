@@ -1,0 +1,12 @@
+.ver-pais-img{
+    width: 220px;
+    height: 120px;
+    object-fit: cover;
+    image-rendering: pixelated;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+}
+
+.mr-1{
+    margin: 5px;
+}

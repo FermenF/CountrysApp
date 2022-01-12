@@ -1,0 +1,8 @@
+<form autocomplete="off" (ngSubmit)="buscar()">
+    <input type="text"
+           [(ngModel)]="termino" 
+           name="termino"
+           class="form-control"
+           [placeholder]="placeholder"
+           (input)="teclaPresionada()">
+</form>
